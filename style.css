@@ -24,20 +24,34 @@
 	--cor6: rgb(23,104,123);
 }
 body{
-	margin: 0;
+	margin-right: 5%;
+	margin-left: 5%;
 	font-family: 'Castoro', serif;
 	background-color: var(--cor2);
 }
-
+a{
+    text-decoration: none;
+}
 /*----------------------Header--------------------------*/
-.contaianer{
+.container{
     display: flex;
 }
-.header{
-    display: inline-block;
+.Logotipo{
+    width: 50%;
 }
 
+.Menu{
+    display: grid;
+    align-content: center;
+    width: 50%;
+    text-align: right;
 
+}
+
+.Menu ul li{
+    display: inline;
+    margin-right: 5%;
+}
 
 /*----------------------Promoção--------------------------*/
 .sec_1{
