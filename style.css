@@ -36,13 +36,13 @@ body{
 
 
 /*----------------------Promoção--------------------------*/
-.sec_1{
-	background-image: url('./img/CoverStory_robots.jpeg');
+.promocao{
+	background-image: url('./img/Promocao.png');
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 	padding: 10% 0%;
-	text-align: left;
+	text-align: center;
 	font-size: 1.5rem;
 	color: var(--cor2);
 }
