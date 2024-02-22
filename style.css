@@ -30,8 +30,12 @@ body{
 }
 
 /*----------------------Header--------------------------*/
-
-
+.contaianer{
+    display: flex;
+}
+.header{
+    display: inline-block;
+}
 
 
 
