@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Castoro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Fredericka+the+Great&display=swap');
 
 .row{ display: table; width:100%; }
 .col{ display: table-cell; vertical-align: top;}
@@ -18,14 +19,14 @@
 :root{
 	--cor1: rgb(0,0,0);
 	--cor2: rgb(255,255,255);
-	--cor3: rgb(51,51,51);
-	--cor4: rgb(130,192,203);
-	--cor5: rgb(234,185,106);
-	--cor6: rgb(23,104,123);
+	--cor3: rgb(185, 0, 0);
+	--cor4: rgb(255, 208, 0);
 }
 body{
 	margin: 0;
-	font-family: 'Castoro', serif;
+	font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
 	background-color: var(--cor2);
 }
 
@@ -40,13 +41,34 @@ body{
 
 
 /*----------------------Promoção--------------------------*/
+
 .promocao{
 	background-image: url('./img/Promocao.png');
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 	padding: 10% 0%;
-	text-align: center;
+	text-align: left;
 	font-size: 1.5rem;
 	color: var(--cor2);
+    padding: 10%;
+}
+.promocao h1, h2{
+    font-family: "Fredericka the Great", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 7rem;
+    margin: 0%;
+}
+.promocao button{
+    font-family: "DM Serif Display", serif;
+    background: var(--cor3);
+    color: var(--cor2);
+    border-radius: 15px;
+    padding: 10px 40px;
+    white-space: nowrap;
+    transition: 0.3s;
+    font-size: 20px;
+    display: inline-block;
+    margin-top: 2%;
 }
