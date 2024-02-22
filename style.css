@@ -98,26 +98,64 @@ header .container{
     margin-top: 2%;
 }
 /*----------------------Mais Vendidos--------------------------*/
+.sec_2{
+	margin: 0 5% 0 5%;
+}
 .sec_2 .container{
 	display: flex;
-	margin: 0 10%;
 	justify-content: center;
-
 }
 
-.sec_2 .mais_ven{
-	border-style: solid;
-	border-color: var(--cor3);
+.sec_2 img{
+	border-radius: 1rem	;
+	width: 90%; 
+	height: 100%;
+}
+
+.product_img{
 	text-align: center;
 	border-width: thin;
-	border-radius: 5%;
-	margin: 0 2%;
-	background-color: #fff;
-
+	border-radius: 1rem;
+	margin: 5% 0 0 0;
 }
 
-.sec_2 .mais_ven:last-child{
-	margin-right: 5%;
+.product{
+	cursor: pointer;
+	text-align: center;
+	border-radius: 1rem;
+	margin: 0 2%;
+	border:1px solid #CCCCCC;
+	width: 22%;
+	background-color: #fff;
+	padding-bottom: 2%;	
+}
+
+.product:hover{
+
+	border: 3px solid #CCCCCC;
+}
+
+.order span{
+	text-align: center;
+}
+
+
+.product_info{
+	background-color: var(--cor3);
+	border: 1px solid  #CCCCCC;
+	border-radius: 30px;
+	padding: 1%;
+	margin: 0 5%;
+	font-size: 1.2rem;
+	color: #fff;
+}
+
+.order{
+	padding: 5%;
+}
+
+.product_info:hover{
+	background-color: #830B17;
 }
 
 .sec_2 h1{
@@ -131,18 +169,24 @@ header .container{
 }
 
 .sec_2 h4{
-	font-size: 2rem;
-}
-.sec_2 button{
-	background-color: var(--cor3);
-	border: none;
-	padding: 6% 10%;
-	border-radius: 5%;
-	cursor: pointer;
-	margin-bottom: 5%;
-	font-size: medium;
+	font-size: 1.5rem;
+	margin: 0 0 5% 0;
 }
 
-.sec_2 button:hover{
-	background-color: #830B17;
+/*----------------------Região de fidelização--------------------------*/
+.sec_3{
+	background-color: var(--cor3);
+	margin: 5% 7% 0 7%;
+
+}
+.phrase{
+	color: #fff;
+	margin-left: 5%;
+	padding: 5% 5% 5% 5%;
+}
+
+.invite{
+	font-size: 3rem;
+	padding-top: 7%;
+	color: #fff;
 }
