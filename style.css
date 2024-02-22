@@ -19,16 +19,6 @@
 :root{
 	--cor1: rgb(0,0,0);
 	--cor2: rgb(255,255,255);
-<<<<<<< HEAD
-	--cor3: rgb(185, 0, 0);
-	--cor4: rgb(255, 208, 0);
-}
-body{
-	margin: 0;
-	font-family: "DM Serif Display", serif;
-    font-weight: 400;
-    font-style: normal;
-=======
 	--cor3: rgb(196, 17, 35); /*Background Color*/
 	--cor4: rgb(130,192,203);
 	--cor5: rgb(234,185,106);
@@ -38,7 +28,6 @@ body{
 	margin: 0;
 	padding: 0;
 	font-family: 'Castoro', serif;
->>>>>>> 8dc8c67fadb24f90c96bc691fa2102a0078a2abf
 	background-color: var(--cor2);
 }
 a{
@@ -87,7 +76,6 @@ header .container{
 	text-align: left;
 	font-size: 1.5rem;
 	color: var(--cor2);
-<<<<<<< HEAD
     padding: 10%;
 }
 .promocao h1, h2{
@@ -108,7 +96,6 @@ header .container{
     font-size: 20px;
     display: inline-block;
     margin-top: 2%;
-=======
 }
 /*----------------------Mais Vendidos--------------------------*/
 .sec_2 .container{
@@ -158,5 +145,4 @@ header .container{
 
 .sec_2 button:hover{
 	background-color: #830B17;
->>>>>>> 8dc8c67fadb24f90c96bc691fa2102a0078a2abf
 }
