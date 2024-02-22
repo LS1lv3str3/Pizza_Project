@@ -19,6 +19,7 @@
 :root{
 	--cor1: rgb(0,0,0);
 	--cor2: rgb(255,255,255);
+<<<<<<< HEAD
 	--cor3: rgb(185, 0, 0);
 	--cor4: rgb(255, 208, 0);
 }
@@ -27,18 +28,53 @@ body{
 	font-family: "DM Serif Display", serif;
     font-weight: 400;
     font-style: normal;
+=======
+	--cor3: rgb(196, 17, 35); /*Background Color*/
+	--cor4: rgb(130,192,203);
+	--cor5: rgb(234,185,106);
+	--cor6: rgb(23,104,123);
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Castoro', serif;
+>>>>>>> 8dc8c67fadb24f90c96bc691fa2102a0078a2abf
 	background-color: var(--cor2);
+}
+a{
+    text-decoration: none;
+    
 }
 
 /*----------------------Header--------------------------*/
-.contaianer{
+
+header .container{
     display: flex;
 }
-.header{
-    display: inline-block;
+
+.Logotipo{
+    width: 50%;
 }
 
+.Menu{
+    display: grid;
+    align-content: center;
+    width: 50%;
+    text-align: right;
+    font-size: 1.3rem;
+}
 
+.Menu ul li{
+    display: inline;
+    margin-right: 5%;
+}
+.Menu ul li :last-child{
+    margin-right: 0%;
+}
+
+.Menu a {
+    color: black;
+}
 
 /*----------------------Promoção--------------------------*/
 
@@ -51,6 +87,7 @@ body{
 	text-align: left;
 	font-size: 1.5rem;
 	color: var(--cor2);
+<<<<<<< HEAD
     padding: 10%;
 }
 .promocao h1, h2{
@@ -71,4 +108,55 @@ body{
     font-size: 20px;
     display: inline-block;
     margin-top: 2%;
+=======
+}
+/*----------------------Mais Vendidos--------------------------*/
+.sec_2 .container{
+	display: flex;
+	margin: 0 10%;
+	justify-content: center;
+
+}
+
+.sec_2 .mais_ven{
+	border-style: solid;
+	border-color: var(--cor3);
+	text-align: center;
+	border-width: thin;
+	border-radius: 5%;
+	margin: 0 2%;
+	background-color: #fff;
+
+}
+
+.sec_2 .mais_ven:last-child{
+	margin-right: 5%;
+}
+
+.sec_2 h1{
+	text-align: center;
+	padding: 3% 0 0 0;
+	font-size: 2.5rem;
+	
+}
+.sec_2 h3{
+	font-size: 1.7rem;
+}
+
+.sec_2 h4{
+	font-size: 2rem;
+}
+.sec_2 button{
+	background-color: var(--cor3);
+	border: none;
+	padding: 6% 10%;
+	border-radius: 5%;
+	cursor: pointer;
+	margin-bottom: 5%;
+	font-size: medium;
+}
+
+.sec_2 button:hover{
+	background-color: #830B17;
+>>>>>>> 8dc8c67fadb24f90c96bc691fa2102a0078a2abf
 }
