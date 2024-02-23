@@ -15,24 +15,22 @@
 <body>
     <!--Header-->
     <header class="header">
-
         <div class="container">
-            <div class="Logotipo">
-                <a>
-                    <img src="\img\Logo_teste.png" style="width: 20%;" >
-                </a>
+            <div class="branding">
+                <span class="pizza">Pizza</span>
+                <img src="/img/Logo_teste.png" alt="PizzaPlace Logo" class="logo">      
+                    <span class="place">Place</span>
             </div>
-            <div class="Menu">
-                    <ul>
-                        <li><a href="#"><i class="fa-sharp fa-solid fa-house fa-sm" style="margin-right: 1%;"></i>Home</a></li>
-                        <li><a href="#"><i class="fa-solid fa-utensils fa-sm" style="margin-right: 1%;"></i>Produtos</a></li>
-                        <li><a href="#"><i class="fa-solid fa-tags fa-sm" style="margin-right: 1%;"></i>Especiais</a></li>
-                        <li><a href="#"><i class="fa-solid fa-location-dot fa-sm" style="margin-right: 1%"></i>Localização</a></li>
-                        <li><a href="#"><i class="fa-solid fa-user fa-sm" style="margin-right: 1%"></i>Login</a></li>
-                    </ul>
-            </div>  
+            <nav class="menu">
+                <ul>
+                    <li><a href="#"><i class="fa-sharp fa-solid fa-house fa-sm"></i>Home</a></li>
+                    <li><a href="#"><i class="fa-solid fa-utensils fa-sm"></i>Produtos</a></li>
+                    <li><a href="#"><i class="fa-solid fa-tags fa-sm"></i>Especiais</a></li>
+                    <li><a href="#"><i class="fa-solid fa-location-dot fa-sm"></i>Localização</a></li>
+                    <li><a href="#"><i class="fa-solid fa-user fa-sm"></i>Login</a></li>
+                </ul>
+            </nav>  
         </div>
-           
     </header>
 
     <!--Promoção-->
@@ -198,15 +196,15 @@
         </div>
         <div class="col col-5 form">
             <form method="get">
-                <p class="email"> 
-                    <input type="email" id="email" name="email" placeholder="Email">
-                </p>
-                <p class="nome">
-                    <input type="text" id="nome" name="nome" placeholder="Nome">
-                </p>
-                <p style="text-align: center;">
+                <div id="email"> 
+                    <input type="email" class="email" name="email" placeholder="Email">
+                </div>
+                <div id="nome">
+                    <input type="text" class="nome" name="nome" placeholder="Nome">
+                </div>
+                <div>
                     <input type="submit" id="subs" value="Subsbrever">
-                </p>
+                </div>
             </form>
         </div>
     </div>
@@ -219,13 +217,28 @@
     <section></section>
 
    <!--FOOTER-->
-   <footer></footer>
-   
-   
-   
-   
-   
-    <section></section>
+   <footer class="footer">
+    <div class="row">
+        <div class="col col-4 ftext">
+            <p>Copyright &copy;2024 | Todos os direitos reservados.</p>
+            <p style="margin-bottom: 0;">Autores:</p>
+            <nav class="navF">
+                <a href="#" style="margin-left: 0;">Olesea Vulpe</a>
+                <p>|</p>
+                <a href="#">Lucas Silvestre</a>
+            </nav>
+           
+        </div>
+        <div class="col col-8 ficons">
+            <ul>
+                <li><a href="#"><i class="fa-brands fa-square-facebook fa-xl"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-x-twitter fa-xl"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram fa-xl"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-youtube fa-xl"></i></a></li>
+            </ul>
+        </div>
+    </div>
+   </footer>
     
 </body>
 </html>

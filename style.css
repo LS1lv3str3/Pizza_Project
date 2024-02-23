@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Fredericka+the+Great&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
 
 .row{ display: table; width:100%; }
 .col{ display: table-cell; vertical-align: top;}
@@ -39,34 +40,59 @@ a{
 
 /*----------------------Header--------------------------*/
 
-header .container{
+.header .container {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+	margin: 0 5%;
 }
 
-.Logotipo{
-    width: 50%;
+.branding{
+	display: flex;
+	align-items: center;
 }
 
-.Menu{
-    display: grid;
-    align-content: center;
-    width: 50%;
-    text-align: right;
-    font-size: 1.3rem;
+.logo{
+	margin: 0 auto;
+	height: 70px;
 }
 
-.Menu ul li{
-    display: inline;
-    margin-right: 5%;
-}
-.Menu ul li :last-child{
-    margin-right: 0%;
+.pizza, .place{
+	font-family: 'Chewy', cursive;
+	font-size: 50px;
 }
 
-.Menu a {
-    color: black;
+.pizza{
+	color: var(--cor1);
 }
 
+.place{
+	color: #830B17;
+}
+
+.menu ul{
+	display: flex;
+	list-style: none;
+}
+
+.menu li{
+	margin-left: 20px;
+	
+}
+
+.menu li:nth-last-child{
+	margin-left: 0%;
+}
+
+.menu a{
+	color: black;
+	font-size: 20px;
+}
+
+.menu a:hover{
+	color: #830B17;
+}
 /*----------------------Promoção--------------------------*/
 
 .promocao{
@@ -143,7 +169,7 @@ header .container{
 
 
 .product_info{
-	background-color: var(--cor3);
+	background-color: #db3737;
 	border: 1px solid  #CCCCCC;
 	border-radius: 30px;
 	padding: 5%;
@@ -193,8 +219,8 @@ header .container{
 	font-family: "Macondo", cursive ;
 }
 .form{
-	text-align: right;
-	padding: 10% 10% 0 0;
+	text-align: center;
+	padding: 10% 0 0 0;
 }
 
 .form p{
@@ -202,23 +228,34 @@ header .container{
 }
 
 
-#email{
-	margin: 5% 0 5% 0;
-	padding: 3% 15% 3% 0%;
+.email{
+	margin: 2% 0 0 0;
+	padding: 3% 20% 3% 5%;
+	border-radius: 5px;
+	border-width: thin;
 }
 
-#nome{
-	padding: 3% 15% 3% 0%;
+.email::placeholder{
+	font-size: large;
+}
+
+.nome{
+	margin: 5% 0 0% 0;
+	padding: 3% 20% 3% 5%;
+	border-radius: 5px;
+	border-width: thin;
+}
+
+.nome::placeholder{
+	font-size: large;
 }
 
 #subs{
 	margin-top: 3%;
-	margin-left: 25%;
-	padding: 3% 6%;
-	text-align: left;
+	padding: 3% 15%;
 	background: transparent;
 	border: 1px solid #fff;
-	font-size: 1rem;
+	font-size: large;
 	color: #fff;
 	cursor: pointer;
 	border-radius: 30px;
@@ -229,4 +266,57 @@ header .container{
 	color: black;
 	border-color: #ffde59;
 	border-radius: 30px;
+}
+
+
+/*----------------------Footer--------------------------*/
+.footer{
+	background-color: #db3737	;
+	margin-top: 5%;
+	padding: 1% 0;
+	justify-content: center;
+}
+.ficons{
+	text-align: left;
+	padding: 1.5% 0 0 0;
+}
+
+.ficons a:hover{
+	color: #ffde59;
+}
+
+.ftext{
+	padding: 0 0 0 5%;
+	color: #fff;
+}
+
+.footer ul li{
+	display: inline;	
+	margin-left: 10%;
+	padding: 0%;
+}
+
+.navF{
+	display: flex;
+	
+}
+.navF a{
+	margin: 0 2%;
+}
+
+.navF a:hover{
+	color: #ffde59;
+}
+.navF p{
+	margin: 0%;
+}
+
+/*----------------------Login Page--------------------------*/
+.loginPage{
+	background-color: #db3737;
+}
+.login{
+	background-color: rgba(255, 255, 255, 0.8);
+	position: absolute;
+
 }
