@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Fredericka+the+Great&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
 
 .row{ display: table; width:100%; }
 .col{ display: table-cell; vertical-align: top;}
@@ -32,6 +33,7 @@ body{
 }
 a{
     text-decoration: none;
+	color: #fff;
     
 }
 
@@ -135,7 +137,7 @@ header .container{
 	border: 3px solid #CCCCCC;
 }
 
-.order span{
+.order a{
 	text-align: center;
 }
 
@@ -144,18 +146,17 @@ header .container{
 	background-color: var(--cor3);
 	border: 1px solid  #CCCCCC;
 	border-radius: 30px;
-	padding: 1%;
+	padding: 5%;
 	margin: 0 5%;
 	font-size: 1.2rem;
 	color: #fff;
 }
 
-.order{
-	padding: 5%;
-}
-
 .product_info:hover{
 	background-color: #830B17;
+}
+.product_info a{
+	padding: 5% 30% 5% 30%;
 }
 
 .sec_2 h1{
@@ -175,18 +176,57 @@ header .container{
 
 /*----------------------Região de fidelização--------------------------*/
 .sec_3{
-	background-color: var(--cor3);
+	background-image: url(/img/banner_pizza.png);
+	background-size: cover;
 	margin: 5% 7% 0 7%;
 
 }
 .phrase{
-	color: #fff;
+	color: #db3737;
 	margin-left: 5%;
-	padding: 5% 5% 5% 5%;
+	padding: 5% 5% 5% 10%;
 }
 
 .invite{
-	font-size: 3rem;
-	padding-top: 7%;
+	font-size: 5rem;
 	color: #fff;
+	font-family: "Macondo", cursive ;
+}
+.form{
+	text-align: right;
+	padding: 10% 10% 0 0;
+}
+
+.form p{
+	margin:0;
+}
+
+
+#email{
+	margin: 5% 0 5% 0;
+	padding: 3% 15% 3% 0%;
+}
+
+#nome{
+	padding: 3% 15% 3% 0%;
+}
+
+#subs{
+	margin-top: 3%;
+	margin-left: 25%;
+	padding: 3% 6%;
+	text-align: left;
+	background: transparent;
+	border: 1px solid #fff;
+	font-size: 1rem;
+	color: #fff;
+	cursor: pointer;
+	border-radius: 30px;
+}
+
+#subs:hover{
+	background-color: #ffde59;
+	color: black;
+	border-color: #ffde59;
+	border-radius: 30px;
 }
