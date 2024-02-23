@@ -174,13 +174,66 @@ header .container{
 	margin: 0 0 5% 0;
 }
 
-<<<<<<< HEAD
 .sec_2 button:hover{
 	background-color: #830B17;
 }
-/*------------ -----Regiao de fidelizacao--------------------*/
+
+/*----------------------Região de fidelização--------------------------*/
+.sec_3{
+	background-image: url(/img/banner_pizza.png);
+	background-size: cover;
+	margin: 5% 7% 0 7%;
+
+}
+.phrase{
+	color: #db3737;
+	margin-left: 5%;
+	padding: 5% 5% 5% 10%;
+}
+
+.invite{
+	font-size: 5rem;
+	color: #fff;
+	font-family: "Macondo", cursive ;
+}
+.form{
+	text-align: right;
+	padding: 10% 10% 0 0;
+}
+
+.form p{
+	margin:0;
+}
 
 
+#email{
+	margin: 5% 0 5% 0;
+	padding: 3% 15% 3% 0%;
+}
+
+#nome{
+	padding: 3% 15% 3% 0%;
+}
+
+#subs{
+	margin-top: 3%;
+	margin-left: 25%;
+	padding: 3% 6%;
+	text-align: left;
+	background: transparent;
+	border: 1px solid #fff;
+	font-size: 1rem;
+	color: #fff;
+	cursor: pointer;
+	border-radius: 30px;
+}
+
+#subs:hover{
+	background-color: #ffde59;
+	color: black;
+	border-color: #ffde59;
+	border-radius: 30px;
+}
 
 /*----------------------Nossas lojas--------------------------*/
 
@@ -205,10 +258,6 @@ header .container{
 	}
   }
   
-  .sec_3 {
-	  background: #F4F4F4;
-	  padding: 50px 0;
-  }
   .places{
 	font-family: "DM Serif Display", serif;
 	font-size: 5rem;
@@ -219,7 +268,7 @@ header .container{
   .lojas {
 	  max-width: 1044px;
 	  margin: 0 auto;
-	  padding: 10%;
+	  padding: 8%;
   }
   
   .carousel {
@@ -359,62 +408,3 @@ header .container{
 		  object-fit: cover;
 	  }
   }
-  
-=======
-/*----------------------Região de fidelização--------------------------*/
-.sec_3{
-	background-image: url(/img/banner_pizza.png);
-	background-size: cover;
-	margin: 5% 7% 0 7%;
-
-}
-.phrase{
-	color: #db3737;
-	margin-left: 5%;
-	padding: 5% 5% 5% 10%;
-}
-
-.invite{
-	font-size: 5rem;
-	color: #fff;
-	font-family: "Macondo", cursive ;
-}
-.form{
-	text-align: right;
-	padding: 10% 10% 0 0;
-}
-
-.form p{
-	margin:0;
-}
-
-
-#email{
-	margin: 5% 0 5% 0;
-	padding: 3% 15% 3% 0%;
-}
-
-#nome{
-	padding: 3% 15% 3% 0%;
-}
-
-#subs{
-	margin-top: 3%;
-	margin-left: 25%;
-	padding: 3% 6%;
-	text-align: left;
-	background: transparent;
-	border: 1px solid #fff;
-	font-size: 1rem;
-	color: #fff;
-	cursor: pointer;
-	border-radius: 30px;
-}
-
-#subs:hover{
-	background-color: #ffde59;
-	color: black;
-	border-color: #ffde59;
-	border-radius: 30px;
-}
->>>>>>> 334f3167b3b445b0683acf342e98314fe6a15a95
