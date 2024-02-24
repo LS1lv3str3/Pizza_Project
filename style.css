@@ -640,7 +640,7 @@ Special Page (Promoção)
 	background-size: cover;
 	font-size: 1.1rem;
 	color: var(--cor2);
-	padding: 25%;
+	padding: 20%;
 	position: relative;
 }
 .promocao2 h1{
@@ -676,8 +676,8 @@ Special Page (Promoção)
 .item-1{
 	position: absolute;
     top: 35%;
-    left: 28%;
-    padding: 2% 7%;
+    left: 31%;
+    padding: 1% 3%;
     text-align: center;
 	background-color: rgba(0, 0, 0, 0.648);
 }
@@ -693,7 +693,7 @@ Special Page (Promoção)
 }
 .item-4{
 	position: absolute;
-	top: 50%;
+	top: 28%;
     right: 1%;
 }
 
