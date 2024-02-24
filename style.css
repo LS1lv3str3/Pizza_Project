@@ -38,125 +38,10 @@ a{
 	color: #fff;
     
 }
-/*----------------------Login Page--------------------------*/
-.login-page{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-}
 
-.login-page{
-    background-image: url(img/1.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    
-}
-
-.login{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 440px;
-    height: 480px;
-    padding: 30px;
-}
-
-.login-header{
-    text-align: center;
-    margin: 20px 0 40px 0;
-}
-
-.login-header header{
-    color: var(--cor1);
-    font-size: 40px;
-    font-weight: 600;
-}
-
-.input .input-field{
-    width: 100%;
-    height: 60px;
-    font-size: 17px;
-    padding: 0 0 0 25px;
-    margin-bottom: 15px;
-    border-radius: 30px;
-    border: none;
-    box-shadow: 0 5px 10px 1px rgba(0, 0, 0, 0.05);
-    outline: none;
-    transition: 0.3s;
-}
-
-::placeholder{
-    font-weight: 500;
-    color: #222;
-}
-
-.input-field:focus{
-    width: 105%;
-}
-
-.esquecer{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 40px;
-}
-
-.esquecer a:hover{
-    text-decoration:underline ;
-}
-
-.login section{
-    align-items: center;
-    font-size: 14px;
-    color: var(--cor1);
-    font-weight: 500;
-}
-
-.login section a{
-    color: var(--cor1);
-}
-#check{
-    margin-right: 10px;
-}
-
-.input-submit{
-    position: relative;
-}
-
-.submit-btn{
-    width: 100%;
-    height: 60px;
-    background: rgba(219,55,55,0.5);
-    border: 2px solid rgba(219,55,55,0.8);
-    border-radius: 30px;
-    cursor: pointer;
-    transition: .3s;
-}
-
-.submit-btn:hover{
-    width: 100%;
-    height: 60px;
-    background: rgb(219,55,55);
-    border: 2px solid rgb(219,55,55);
-    border-radius: 30px;
-    cursor: pointer;
-    transition: .3s;
-}
-
-.input-submit label{
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    -ms-transform: translate(-50%,-50%);
-    -webkit-transform: translate(-50%,-50%);
-}
-
-/*----------------------Header--------------------------*/
+/*----------------------
+Header
+--------------------------*/
 
 .header .container {
     display: flex;
@@ -211,7 +96,9 @@ a{
 .menu a:hover{
 	color: #830B17;
 }
-/*----------------------Promoção--------------------------*/
+/*----------------------
+Promoção
+--------------------------*/
 
 .promocao{
 	background-image: url('./img/Promocao.png');
@@ -243,7 +130,9 @@ a{
     display: inline-block;
     margin-top: 2%;
 }
-/*----------------------Mais Vendidos--------------------------*/
+/*----------------------
+Mais Vendidos
+--------------------------*/
 .sec_2{
 	margin: 0 5% 0 5%;
 }
@@ -318,7 +207,9 @@ a{
 	margin: 0 0 5% 0;
 }
 
-/*----------------------Região de fidelização--------------------------*/
+/*----------------------
+Região de fidelização
+--------------------------*/
 .sec_3{
 	background-image: url(/img/banner_pizza.png);
 	background-size: cover;
@@ -386,7 +277,9 @@ a{
 	border-radius: 30px;
 }
 
-/*----------------------Nossas lojas--------------------------*/
+/*----------------------
+Nossas lojas
+--------------------------*/
 .places {
     font-family: "DM Serif Display", serif;
     font-size: 3rem;
@@ -572,7 +465,9 @@ a{
   }
 
 
-/*----------------------Footer--------------------------*/
+/*----------------------
+Footer
+--------------------------*/
 .footer{
 	background-color: #db3737	;
 	margin-top: 5%;
@@ -613,19 +508,130 @@ a{
 .navF p{
 	margin: 0%;
 }
-<<<<<<< HEAD
 
-/*----------------------Login Page--------------------------*/
-.loginPage{
-	background-color: #db3737;
+/*----------------------
+Login Page
+--------------------------*/
+.login-page{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
+
+.login-page{
+  background-image: url(img/1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+
 .login{
-	background-color: rgba(255, 255, 255, 0.8);
-	position: absolute;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 440px;
+  height: 480px;
+  padding: 30px;
 }
 
-/*----------------------Special Page (Promoção)--------------------------*/
+.login-header{
+  text-align: center;
+  margin: 20px 0 40px 0;
+}
+
+.login-header header{
+  color: var(--cor1);
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.input .input-field{
+  width: 100%;
+  height: 60px;
+  font-size: 17px;
+  padding: 0 0 0 25px;
+  margin-bottom: 15px;
+  border-radius: 30px;
+  border: none;
+  box-shadow: 0 5px 10px 1px rgba(0, 0, 0, 0.05);
+  outline: none;
+  transition: 0.3s;
+}
+
+::placeholder{
+  font-weight: 500;
+  color: #222;
+}
+
+.input-field:focus{
+  width: 105%;
+}
+
+.esquecer{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.esquecer a:hover{
+  text-decoration:underline ;
+}
+
+.login section{
+  align-items: center;
+  font-size: 14px;
+  color: var(--cor1);
+  font-weight: 500;
+}
+
+.login section a{
+  color: var(--cor1);
+}
+#check{
+  margin-right: 10px;
+}
+
+.input-submit{
+  position: relative;
+}
+
+.submit-btn{
+  width: 100%;
+  height: 60px;
+  background: rgba(219,55,55,0.5);
+  border: 2px solid rgba(219,55,55,0.8);
+  border-radius: 30px;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.submit-btn:hover{
+  width: 100%;
+  height: 60px;
+  background: rgb(219,55,55);
+  border: 2px solid rgb(219,55,55);
+  border-radius: 30px;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.input-submit label{
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+}
+
+/*----------------------
+Special Page (Promoção)
+--------------------------*/
 
 .promocao2{
 	background-image: url('./img/promocao2.jpg');
@@ -690,5 +696,19 @@ a{
 	top: 50%;
     right: 1%;
 }
-=======
->>>>>>> a7ffbbdbb0a7c6f9af898c8f6a8db7b3f8c429cb
+
+/*----------------------
+Página de Produtos
+--------------------------*/
+
+.products{
+  margin: 5% 10%;
+}
+
+.products .row{
+  display: flex;
+}
+
+.product-wrap{
+  padding: 0 30px;
+}
