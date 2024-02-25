@@ -23,7 +23,7 @@
 :root{
 	--cor1: rgb(0,0,0);
 	--cor2: rgb(255,255,255);
-	--cor3: rgb(196, 17, 35); /*Background Color*/
+	--cor3: rgb(219, 55, 55); /*Cor primária*/
 	--cor4: rgb(130,192,203);
 	--cor5: rgb(234,185,106);
 	--cor6: rgb(23,104,123);
@@ -124,7 +124,7 @@ Promoção
 	text-align: left;
 	font-size: 1.5rem;
 	color: var(--cor2);
-    padding: 10%;
+  padding: 3% 10% 5%;
 }
 .promocao h1{
     font-family: "Fredericka the Great", serif;
@@ -144,6 +144,7 @@ Promoção
     font-size: 20px;
     display: inline-block;
     margin-top: 2%;
+    border:  none;
 }
 
 /*----------------------
@@ -225,8 +226,14 @@ Nossas lojas
 }
 
 .places h1{
-    margin: 5% 0 2% 0;
-    text-align: center;
+  margin: 5% 0 3% 0;
+  text-align: center;
+  width: 40%;
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  border-color: var(--cor3);
+  margin-left: 50%;
+  transform: translate(-50%, 0);
 }
   
   .lojas {
@@ -407,46 +414,48 @@ Nossas lojas
 /*----------------------
 Footer
 --------------------------*/
-.footer{
-	background-color: #db3737	;
-	margin-top: 5%;
-	padding: 1% 0;
-	justify-content: center;
-}
-.ficons{
-	text-align: left;
-	padding: 1.5% 0 0 0;
-}
-
-.ficons a:hover{
-	color: #ffde59;
+.footer {
+  background-color: #4D0604;
+  padding: 1% 0;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  color: #fff;
 }
 
-.ftext{
-	padding: 0 0 0 5%;
-	color: #fff;
+.footer ul li {
+  display: inline;
 }
 
-.footer ul li{
-	display: inline;	
-	margin-left: 10%;
-	padding: 0%;
+footer .container {
+  margin: 0 auto;
+  width: 100%; 
 }
 
-.navF{
-	display: flex;
-	
-}
-.navF a{
-	margin: 0 2%;
+footer a:hover{
+  color: #ffde59;
 }
 
-.navF a:hover{
-	color: #ffde59;
+.container_icons ul, .autores ul {
+  padding: 0;
+  list-style: none;
 }
-.navF p{
-	margin: 0%;
+
+.container_icons ul li{
+  margin-right: 5%;
 }
+
+.container_icons ul li:last-child{
+  margin-right: 0%;
+}
+
+.container_info p, .autores p {
+  margin: 0;
+}
+
+
 
 /*----------------------
 Login Page
@@ -456,16 +465,11 @@ Login Page
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
-}
-
-.login-page{
   background-image: url(img/1.png);
   background-size: cover;
   background-repeat: no-repeat;
   justify-content: center;
   align-items: center;
-  
-  
 }
 
 .login{
@@ -475,7 +479,9 @@ Login Page
   width: 440px;
   height: 480px;
   padding: 30px;
-  margin: 0 auto
+  margin: 5% auto;
+  background-color: rgba(0,0,0,0.3);
+  border-radius: 30px;
 }
 
 .login-header{
@@ -490,7 +496,7 @@ Login Page
 }
 
 .input .input-field{
-  width: 100%;
+  width: 95%;
   height: 60px;
   font-size: 17px;
   padding: 0 0 0 25px;
@@ -508,7 +514,7 @@ Login Page
 }
 
 .input-field:focus{
-  width: 105%;
+  width: 100%;
 }
 
 .esquecer{
@@ -675,9 +681,14 @@ Página de Produtos
 
 .products h1{
   text-align: center;
-  color: #db3737;
   font-size: 50px;
   margin-bottom: 5%;
+  width: 40%;
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  border-color: var(--cor3);
+  margin-left: 50%;
+  transform: translate(-50%, 0);
 }
 
 .products .row{
