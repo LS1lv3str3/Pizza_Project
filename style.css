@@ -48,12 +48,13 @@ Header
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-	margin: 0 5%;
+    box-shadow: 0px 2px 15px rgba(204, 25, 25, 0.1);
 }
 
 .branding{
 	display: flex;
 	align-items: center;
+  margin-left: 5%;
 }
 
 .logo{
@@ -72,6 +73,9 @@ Header
 
 .place{
 	color: #830B17;
+}
+.menu{
+  margin-right: 5%;
 }
 
 .menu ul{
@@ -95,6 +99,10 @@ Header
 
 .menu a:hover{
 	color: #830B17;
+}
+
+.menu i{
+  margin-right: 6px;
 }
 /*----------------------
 Promoção
