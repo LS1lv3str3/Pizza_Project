@@ -523,7 +523,6 @@ Login Page
   background-image: url(img/1.png);
   background-size: cover;
   background-repeat: no-repeat;
-  display: flex;
   justify-content: center;
   align-items: center;
   
@@ -537,6 +536,7 @@ Login Page
   width: 440px;
   height: 480px;
   padding: 30px;
+  margin: 0 auto
 }
 
 .login-header{
