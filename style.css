@@ -24,14 +24,13 @@
 	--cor1: rgb(0,0,0);
 	--cor2: rgb(255,255,255);
 	--cor3: rgb(219, 55, 55); /*Cor primária*/
-	--cor4: rgb(130,192,203);
-	--cor5: rgb(234,185,106);
-	--cor6: rgb(23,104,123);
+	--cor4: rgb(248,248,248); 
+	
 }
 body{
 	margin: 0;
 	padding: 0;
-	background-color: var(--cor2);
+	background-color: var(--cor4);
 }
 
 h1 h2 h3 h4{
@@ -49,6 +48,7 @@ Header
 --------------------------*/
 
 .header .container {
+    background-color: var(--cor4);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -220,12 +220,10 @@ Região de fidelização
 /*----------------------
 Nossas lojas
 --------------------------*/
-.places {
-    font-family: "DM Serif Display", serif;
-    font-size: 3rem;
-}
 
 .places h1{
+  font-family: "DM Serif Display", serif;
+  font-size: 60px;
   margin: 5% 0 3% 0;
   text-align: center;
   width: 40%;
@@ -281,15 +279,6 @@ Nossas lojas
   
   .carousel input:nth-of-type(1):checked ~ .carousel__slides .carousel__slide:first-of-type {
     margin-left: 0%;
-  }
-  
-  .carousel input:nth-of-type(1):checked ~ .carousel__thumbnails li:nth-of-type(1),
-  .carousel input:nth-of-type(2):checked ~ .carousel__thumbnails li:nth-of-type(2),
-  .carousel input:nth-of-type(3):checked ~ .carousel__thumbnails li:nth-of-type(3),
-  .carousel input:nth-of-type(4):checked ~ .carousel__thumbnails li:nth-of-type(4),
-  .carousel input:nth-of-type(5):checked ~ .carousel__thumbnails li:nth-of-type(5),
-  .carousel input:nth-of-type(6):checked ~ .carousel__thumbnails li:nth-of-type(6) {
-    box-shadow: 0px 0px 0px 5px rgba(0, 0, 255, 0.5);
   }
   
   .carousel__slides {
@@ -485,6 +474,7 @@ Login Page
 }
 
 .login-header{
+  font-family: "DM Serif Display", serif;
   text-align: center;
   margin: 20px 0 40px 0;
 }
@@ -648,14 +638,21 @@ Location Page
 
 .maps{
 	font-family: "DM Serif Display", serif;
-	background-color: #f8f8f8;
 	.row{
-		margin-top: 3%;
+		margin: 3% 0 5% 0;
 	}
 }
-.map_nome{
-	font-size: 1.5rem;
-	text-align: center;
+.map_nome h1{
+	font-family: "DM Serif Display", serif;
+  text-align: center;
+  font-size: 60px;
+  margin-bottom: 5%;
+  width: 40%;
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  border-color: var(--cor3);
+  margin-left: 50%;
+  transform: translate(-50%, 0);
 }
 .map_text{
 	margin: 0 20% 0 25%;
@@ -680,8 +677,9 @@ Página de Produtos
 }
 
 .products h1{
+  font-family: "DM Serif Display", serif;
   text-align: center;
-  font-size: 50px;
+  font-size: 60px;
   margin-bottom: 5%;
   width: 40%;
   border-top: 2px solid;
