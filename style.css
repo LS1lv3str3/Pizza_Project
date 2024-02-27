@@ -220,6 +220,9 @@ Região de fidelização
 /*----------------------
 Nossas lojas
 --------------------------*/
+.sec_4{
+  margin: 5% 0 5% 0;
+}
 .places {
     font-family: "DM Serif Display", serif;
     font-size: 3rem;
