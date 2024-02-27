@@ -164,7 +164,8 @@ Região de fidelização
 .sec_3{
 	background-image: url(/img/banner_pizza.png);
 	background-size: cover;
-	margin: 5% 7% 0 7%;
+	margin: 5vh 0;
+  width: 100vw;
 
 }
 .phrase{
@@ -219,6 +220,7 @@ Região de fidelização
 	color: #fff;
 	cursor: pointer;
 	border-radius: 30px;
+  margin-bottom: 5%;
 }
 
 #subs:hover{
@@ -415,7 +417,7 @@ Nossas lojas
 Footer
 --------------------------*/
 .footer {
-  background-color: #4D0604;
+  background-color: #830B17;
   padding: 1% 0;
   display: flex; 
   justify-content: center;
@@ -642,6 +644,13 @@ Special Page (Promoção)
 	position: absolute;
 	top: 28%;
     right: 1%;
+}
+
+.item-4 h2{
+  background-image: linear-gradient(white, white);
+  background-size: 100% 3px;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 /*----------------------
