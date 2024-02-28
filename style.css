@@ -228,14 +228,15 @@ Região de fidelização
 
 #subs{
 	margin-top: 3%;
-	padding: 2vh 15vh;
+	padding: 2vh 10vh;
 	background: transparent;
 	border: 1px solid var(--cor2);
-	font-size: large;
+	font-size: 1.5rem;
 	color: var(--cor2);
 	cursor: pointer;
 	border-radius: 35px;
   margin-bottom: 5%;
+  line-height: 1;
 }
 
 #subs:hover{
@@ -787,9 +788,9 @@ Página de Produtos
 
 .product-wrap .product_content .product_btn{
   display: inline-block;
-  font-size: 14px;
+  font-size: 20px;
   text-align: center;
-  padding: 12px 15px;
+  padding: 5% 10%;
   color: var(--cor1);
   border-radius: 0;
   opacity: 0;
