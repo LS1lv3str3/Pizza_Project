@@ -157,6 +157,19 @@ Promoção
   margin-top: 2%;
   border:  none;
 }
+.promocao button:hover{
+  font-family: "DM Serif Display", serif;
+  background: #830B17;
+  color: var(--cor2);
+  border-radius: 15px;
+  padding: 10px 40px;
+  white-space: nowrap;
+  transition: 0.3s;
+  font-size: 20px;
+  display: inline-block;
+  margin-top: 2%;
+  border:  none;
+}
 
 /*----------------------
 Região de fidelização
@@ -630,7 +643,22 @@ Special Page (Promoção)
     font-size: 20px;
     display: inline-block;
     margin-top: 2%;
+    border: none;
 }
+.promocao2 button:hover{
+  font-family: "DM Serif Display", serif;
+  background: #830B17;
+  color: var(--cor2);
+  border-radius: 15px;
+  padding: 10px 40px;
+  white-space: nowrap;
+  transition: 0.3s;
+  font-size: 20px;
+  display: inline-block;
+  margin-top: 2%;
+  border:  none;
+}
+
 .item-1{
 	position: absolute;
     top: 35%;
