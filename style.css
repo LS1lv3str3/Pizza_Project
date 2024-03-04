@@ -657,6 +657,7 @@ Special Page (Promoção)
     display: inline-block;
     margin-top: 2%;
     border: none;
+    cursor: pointer;
 }
 .promocao2 button:hover{
   font-family: "DM Serif Display", serif;
