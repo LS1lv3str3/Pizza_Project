@@ -72,6 +72,10 @@ Header
   margin-left: 5%;
 }
 
+.header .container .branding a{
+  display: flex;
+}
+
 .logo{
 	margin: 0 auto;
 	height: 70px;
@@ -89,6 +93,7 @@ Header
 .place{
 	color: var(--cor5);
 }
+
 .menu{
   margin-right: 5%;
 }
@@ -522,7 +527,7 @@ Login Page
 }
 
 .login-header header{
-  color: var(--cor2);
+  color: var(--cor1);
   font-size: 40px;
   font-weight: 600;
 }
@@ -562,7 +567,7 @@ Login Page
 .login section{
   align-items: center;
   font-size: 14px;
-  color: var(--cor2);
+  color: var(--cor1);
   font-weight: 500;
 }
 
@@ -604,7 +609,8 @@ Login Page
   transform: translate(-50%,-50%);
   -ms-transform: translate(-50%,-50%);
   -webkit-transform: translate(-50%,-50%);
-  color: var(--cor2);
+  color: var(--cor1);
+  font-size: 1.4rem;
 }
 
 /*----------------------
