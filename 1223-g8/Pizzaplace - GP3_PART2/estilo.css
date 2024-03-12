@@ -20,11 +20,6 @@
 .txt-center{ text-align: center; }
 .txt-left{ text-align: left; }
 
-/*Tablet*/
-@media only screen and (min-with: 768px) and (max-width:991px){
-
-}
-
 .barra{ /*Bara de separação de sections*/
     background-color: #CE441E;
     color: transparent;
@@ -75,6 +70,23 @@ header img{ /*Logotipo*/
     background-color: #f1e9de;
     border-radius: 10px;
     box-shadow: 0px 2px 4px #ce441e7e;
+}
+
+
+.icons_header{
+    font-size: x-large;
+    margin: 0;
+    display: block;
+}
+.icons_header i{
+    margin-right: 2%;
+}
+
+.icons_header ul{
+    margin: 0 10% 0 0;
+    background: none;
+    box-shadow: none;
+    color: #CE441E;
 }
 
 /*Forno*/
@@ -196,7 +208,7 @@ header ul{ /*Estrutura Menu*/
 }
 
 
-    /*Section Pizzas mais vendidas*/
+/*Section Pizzas mais vendidas*/
 
 #pizzas h3{ /*"Pizzas Mais Vendidas"*/
     color: #fff;
@@ -217,7 +229,7 @@ header ul{ /*Estrutura Menu*/
     border-radius: 10px;
     padding-left: 1% ;
     padding-bottom: 30px;    
-
+    
 }
 
 #pizzas a{ /*Botão "Pó forno"*/
@@ -251,7 +263,7 @@ header ul{ /*Estrutura Menu*/
     width: 200px;
     height: 200px;
 }
-    
+
 
 #pizzas .row h4{ /*Nome Pizza*/
     text-align: center;
@@ -275,7 +287,7 @@ header ul{ /*Estrutura Menu*/
 }
 
 
-    /*Section Frase, convite e form*/
+/*Section Frase, convite e form*/
 
 #form .row{ /*Estrutura Section*/
     margin-left: 1%;
@@ -435,12 +447,12 @@ header ul{ /*Estrutura Menu*/
 }
 
 
-    /*footer*/
+/*footer*/
 
 #footer{ /*Estrutura footer*/
     background-color: #f1e9de;
     margin-top: 1%;
-    box-shadow: 0px -2px 4px #ce441e44;
+    box-shadow: 0px -2px 4px #ce441e44;     
     bottom: 0;
     width: 100%;
 }
@@ -448,13 +460,19 @@ header ul{ /*Estrutura Menu*/
 #footer .row{ /*texto*/
     font-family: sans-serif;
     font-size: 15px;
-    margin-left: 2%;
-    width: 50%;
     line-height: 60%;
     font-weight: 100;
+    text-align: center;
 }
 
-                /*PAGINA PRODUTOS*/
+#icons_Footer{
+    font-size: x-large;
+    display: none;
+}
+#icons_Footer i{
+    margin-right: 2%;
+}
+/*PAGINA PRODUTOS*/
 
 
 .produtos h3{ /*Titulo categoria*/
@@ -480,18 +498,18 @@ header ul{ /*Estrutura Menu*/
 .produtos #vegan p{
     color: #CE441E;
 }
-                /*PAGINA ESPECIAIS*/
+/*PAGINA ESPECIAIS*/
 
 .especiais{ /*Estrutura Section*/
     margin: 18%;
     margin-top: 3%;
     margin-bottom: 0;
 }
-                
+
 .especiais .col-8{ /*Estrutura bloco texto*/
     width: 52%;
 }
-                
+
 .especiais .row{ /*Estrutura bloco imagem e texto*/
     margin-bottom: 8%;
     background-color:#f1e9de;
@@ -547,7 +565,7 @@ header ul{ /*Estrutura Menu*/
 }
 
 
-                /*PAGINA LOCALIZAÇÃO*/
+/*PAGINA LOCALIZAÇÃO*/
 
 .localizacao{ /*Estrutura Section*/
     margin: 18%;
@@ -592,7 +610,7 @@ header ul{ /*Estrutura Menu*/
 }
 
 
-                /*PAGINA LOGIN*/
+/*PAGINA LOGIN*/
 
 .login{ /*Estrutura bloco login*/
     text-align: center;
@@ -666,8 +684,13 @@ header ul{ /*Estrutura Menu*/
     width: 100%;
 }
 
-/* Esconder o menu em telas menores que 600px */
+.tablet{
+    display: none;
+}
+
+/* Telemovel*/
 @media only screen and (max-width: 599px) {
+    /*Ocultação da nav bar para o menu burguer*/
     header{
         width: 100%;
         margin: 0;
@@ -678,12 +701,87 @@ header ul{ /*Estrutura Menu*/
     #menu {
         display: none;
     }
-
+    
     .forno{
         display: none;
     }
+    
+    .burguer{
+        display: block;
+        text-align: right;
+    }
 
+    
+    /*Alteração dos Icons das redes sociais*/
+    
+    .icons_header{
+        display: none;
+    }
+    
+    #icons_Footer{
+        display: block;
+    }
+    
+    /*Alteração aos produtos*/
+    #pizzas .col-3{
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    
+    #pizzas .row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        
+    }
+    
+    .tablet{
+        display: none;
+    }
+}
+
+
+/*Tablet*/
+@media only screen and (min-width: 600px) and (max-width:991px){
+    /*Ocultação da nav bar para o menu burguer*/
+    header{
+        width: 100%;
+        margin: 0;
+        border-radius: 0;
+        position: relative;
+        z-index: 0;
+    }
+    #menu {
+        display: none;
+    }
+    
+    .forno{
+        display: none;
+    }
+    
     .burguer{
         display: block;
     }
+    
+    .icons_header{
+        display: none;
+    }
+    
+    #icons_Footer{
+        display: block;
+    }
+    
+    /*Alteração aos produtos*/
+
+    .col-3{
+        display: none;
+    }
+    
+    .tablet{
+        display: block;
+    }
+    
+    
+
 }
