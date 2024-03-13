@@ -286,6 +286,12 @@ header ul{ /*Estrutura Menu*/
     font-size: 16px; 
 }
 
+#pizzas .medidas{
+    margin: 4%;
+    font-size: 1.1rem;
+    color: #CE441E;
+}
+
 
 /*Section Frase, convite e form*/
 
@@ -313,7 +319,7 @@ header ul{ /*Estrutura Menu*/
 #convite{ /*Estrutura Convite*/
     background-color: #CA8010;
     color: #fff;
-    font-size: 60px;
+    font-size: 3rem;
     text-align: center;
     border-radius: 10px;
     margin-left: 1%;
@@ -330,7 +336,7 @@ header ul{ /*Estrutura Menu*/
 }
 
 #convite i{ /*Icone*/
-    font-size: 200px;
+    font-size: 150px;
     color: #fff;
     margin-top: 5%;
     padding: 0;   
@@ -344,10 +350,23 @@ header ul{ /*Estrutura Menu*/
 }
 
 #formulario h1{ /*"Newsletter*/
-    margin-bottom: 20%;
     text-transform: uppercase;
     font-size: 60px;
     color: #fff;
+}
+
+#formulario h2{ /*"Newsletter*/
+    color:#e0aa5b;
+    font-size: 2.2rem;
+}
+#formulario h3{ /*"Newsletter*/
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+.inputbox{
+    margin: 0 auto;
+    padding: 0 10% 5%;
 }
 
 #formulario input{ /*formulario*/
@@ -370,7 +389,6 @@ header ul{ /*Estrutura Menu*/
     color: #000000;
     background: #f1e9de;
     text-align: center;
-    margin-left: 4%;
     width: 20%;
     text-decoration: none;
     margin-top: 3%;
@@ -739,6 +757,19 @@ header ul{ /*Estrutura Menu*/
     .tablet{
         display: none;
     }
+
+    /*Alteração nova loja*/
+    .novaloja .row{
+        display: flex;
+        flex-direction: column; 
+        text-align: center;
+        margin: 0;
+
+        .col-4{
+            width: 100%;
+            margin: 1%;
+        }
+    }
 }
 
 
@@ -771,7 +802,7 @@ header ul{ /*Estrutura Menu*/
     #icons_Footer{
         display: block;
     }
-    
+
     /*Alteração aos produtos*/
 
     .col-3{
@@ -782,6 +813,16 @@ header ul{ /*Estrutura Menu*/
         display: block;
     }
     
-    
+    /*Alteração nova loja*/
+    .novaloja .row{
+        display: flex;
+        flex-direction: column; 
+        text-align: center;
+        margin: 0;
 
+        .col-4{
+            width: 100%;
+            margin: 1%;
+        }
+    }
 }
