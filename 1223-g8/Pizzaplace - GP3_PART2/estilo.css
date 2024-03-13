@@ -670,23 +670,102 @@ header ul{ /*Estrutura Menu*/
     background: #CE441E;
     text-align: center;
     text-decoration:none;
+    margin-top: 1%;
 }
 .botao-login:hover{
     background-color: #CA8010;
 }
 
 .login div:last-child{
-    margin-bottom: 3%;
+    margin: 3% auto;
 }
 
 .login-footer{ /*Footer*/
-    position: fixed;
     width: 100%;
+    position: fixed;
 }
 
 .tablet{
     display: none;
 }
+
+/*PAGINA Registo*/
+
+.register{ /*Estrutura bloco register*/
+    text-align: center;
+    background-color: #f1e9de;
+    width: 30%;
+    border-radius: 10px;
+    padding-bottom: 1%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 7.3% auto 7.3% auto;
+}
+
+.register h1{ /*"Titulo bloco"*/
+    font-size: 30px;
+}
+
+.register p{ /*"texto pre inputs"*/
+    margin-bottom: 1%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.register input{ /*Estrutura inputs*/
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+.register input::placeholder{ /*Texto dentro dos inputs*/
+    font-size: 20px;
+}
+
+.botao-register{ /*Botão "Registar"*/
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding: 3px 15px;
+    border-radius: 50px;
+    transition: 0.5s;
+    color: #fff;
+    background: #CE441E;
+    text-align: center;
+    text-decoration:none;
+    margin-top: 1%;
+}
+.botao-register:hover{
+    background-color: #CA8010;
+}
+
+.register div:last-child{
+    margin-top: 3%;
+}
+
+.register-footer{ /*Footer*/
+    position: fixed;
+    width: 100%;
+}
+
+.register label{
+    margin-bottom: 1%;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+#registoLoja{
+    padding: 1%;
+    font-size: 1rem;
+    background-color: #fff;
+    border-radius: 10px;
+    color: #272727;
+    width: 50%;
+    margin: 0 auto;
+}
+
 
 /* Telemovel*/
 @media only screen and (max-width: 599px) {
@@ -698,6 +777,7 @@ header ul{ /*Estrutura Menu*/
         position: relative;
         z-index: 0;
     }
+
     #menu {
         display: none;
     }
@@ -739,6 +819,48 @@ header ul{ /*Estrutura Menu*/
     .tablet{
         display: none;
     }
+
+    /*Pagina de registo*/
+    .register{
+        width: 100%;
+        margin: 10% auto 0 auto;
+    }
+
+    .register div:last-child{
+        margin-top: 0;
+    }
+
+    .botao-register{
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+        width: 50%;
+    }
+    
+    .titulo{
+        padding: 0%;
+    }
+
+    .titulo h3{
+        margin: 0%;
+    }
+
+    /*Pagina de LOGIN*/
+    .login{
+        width: 100%;
+        margin: 10% auto 0 auto;
+    }
+
+    .login div:last-child{
+        margin-top: 0;
+    }
+
+    .botao-login{
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+        width: 50%;
+    }
 }
 
 
@@ -774,7 +896,7 @@ header ul{ /*Estrutura Menu*/
     
     /*Alteração aos produtos*/
 
-    .col-3{
+    #pizzas .col-3{
         display: none;
     }
     
@@ -782,6 +904,46 @@ header ul{ /*Estrutura Menu*/
         display: block;
     }
     
+    /*Pagina de registo*/
+    .register{
+        width: 100%;
+        margin: 10% auto 0 auto;
+    }
+
+    .register div:last-child{
+        margin-top: 0;
+    }
+
+    .botao-register{
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+        width: 50%;
+    }
     
+    .titulo{
+        padding: 0%;
+    }
+
+    .titulo h3{
+        margin: 0%;
+    }
+
+    /*Pagina de LOGIN*/
+    .login{
+        width: 100%;
+        margin: 10% auto 0 auto;
+    }
+
+    .login div:last-child{
+        margin-top: 0;
+    }
+
+    .botao-login{
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+        width: 50%;
+    }
 
 }
