@@ -286,7 +286,11 @@ header ul{ /*Estrutura Menu*/
     font-size: 16px; 
 }
 
-
+#pizzas .medidas{
+    margin: 4%;
+    font-size: 1.1rem;
+    color: #CE441E;
+}
 /*Section Frase, convite e form*/
 
 #form .row{ /*Estrutura Section*/
@@ -313,7 +317,7 @@ header ul{ /*Estrutura Menu*/
 #convite{ /*Estrutura Convite*/
     background-color: #CA8010;
     color: #fff;
-    font-size: 60px;
+    font-size: 3rem;
     text-align: center;
     border-radius: 10px;
     margin-left: 1%;
@@ -330,7 +334,7 @@ header ul{ /*Estrutura Menu*/
 }
 
 #convite i{ /*Icone*/
-    font-size: 200px;
+    font-size: 150px;
     color: #fff;
     margin-top: 5%;
     padding: 0;   
@@ -349,6 +353,22 @@ header ul{ /*Estrutura Menu*/
     font-size: 60px;
     color: #fff;
 }
+
+
+#formulario h2{ /*"Newsletter*/
+    color:#e0aa5b;
+    font-size: 2.2rem;
+}
+#formulario h3{ /*"Newsletter*/
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+.inputbox{
+    margin: 0 auto;
+    padding: 0 10% 5%;
+}
+
 
 #formulario input{ /*formulario*/
     font-size: 30px;
@@ -861,9 +881,54 @@ header ul{ /*Estrutura Menu*/
         justify-content: center;
         width: 50%;
     }
+
+    /*Alteração nova loja*/
+    .novaloja .row{
+        display: flex;
+        flex-direction: column; 
+        text-align: center;
+        margin: 0;
+
+        .col-4{
+            width: 100%;
+            margin: 1%;
+        }
+    }
+
+    #promo{ /*Estrutura Promoção*/
+        background-image: none;
+        height: 25rem;
+        margin-bottom: -7.5rem;
+    }
+
+    #promo #texto{
+        left: 0;
+        right:0%;
+        padding: 0;
+        display: block;
+        height: 25rem;
+        text-align: center;
+    }
+    #promo #texto h1{
+        font-size: 3rem;
+    }
+    #promo #texto h2{
+        font-size: 3.5rem;
+
+    }
+
+    #promo .botao-promo{
+        margin: 0 auto;
+    }
+
+    #background-img{
+        background-image: url("imagens/home.png");
+        height: 30rem;
+        background-repeat: no-repeat;
+        
+    }
+
 }
-
-
 /*Tablet*/
 @media only screen and (min-width: 600px) and (max-width:991px){
     /*Ocultação da nav bar para o menu burguer*/
@@ -944,6 +1009,52 @@ header ul{ /*Estrutura Menu*/
         margin: 0 auto;
         justify-content: center;
         width: 50%;
+    }
+
+    /*Alteração nova loja*/
+    .novaloja .row{
+        display: flex;
+        flex-direction: column; 
+        text-align: center;
+        margin: 0;
+
+    }
+    .col-4{
+        width: 100%;
+        margin: 1%;
+    }
+
+    #promo{ /*Estrutura Promoção*/
+        background-image: none;
+        height: 25rem;
+        margin-bottom: -7.5rem;
+    }
+
+    #promo #texto{
+        left: 0;
+        right:0%;
+        padding: 0;
+        display: block;
+        height: 25rem;
+        text-align: center;
+    }
+    #promo #texto h1{
+        font-size: 3.5rem;
+    }
+    #promo #texto h2{
+        font-size: 4rem;
+
+    }
+
+    #promo .botao-promo{
+        margin: 7% auto 0 auto;
+    }
+
+    #background-img{
+        background-image: url("imagens/home.png");
+        height: 30rem;
+        background-repeat: no-repeat;
+        
     }
 
 }
