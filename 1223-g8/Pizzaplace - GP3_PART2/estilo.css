@@ -570,8 +570,8 @@ header ul{ /*Estrutura Menu*/
     color: #fff;
     background: #CE441E;
     text-align: center;
-    margin-left: 70%;
-    width: 20%;
+    margin-right: 5%;
+    float: right;
     text-decoration: none;
     margin-top: 0;
     display: inline;
@@ -927,6 +927,13 @@ header ul{ /*Estrutura Menu*/
         background-repeat: no-repeat;
         
     }
+    /*Alteração nas especiais*/
+    .especiais{ margin: 0;}
+    .especiais .row{ margin: 4% 1%; padding: 5% 0;}
+    .especiais .col{
+        display: table-row;
+        text-align: center;
+    }
 
 }
 /*Tablet*/
@@ -1057,4 +1064,15 @@ header ul{ /*Estrutura Menu*/
         
     }
 
+    /*Alteração nas especiais*/
+    .especiais{ margin: 0;}
+    .especiais .row{ margin: 2%; padding: 2% 0;}
+    .especiais .col{
+        display: table-cell;
+        text-align: center;
+        margin: 2%;
+    }
+    .especiais .col-4{
+        width: 33%;
+    }
 }
