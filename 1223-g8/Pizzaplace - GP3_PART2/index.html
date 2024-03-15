@@ -7,36 +7,36 @@
     <link rel="stylesheet" type="text/css" href="estilo.css">
     <link rel="stylesheet" type="text/css" href="fontawesome/css/all.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
 <body>
-
-<header class="header"> <!--Barra Inicial e Menu-->
-    <div id="barra_inicial" class ="row">
-        <div class="col col-3">
-            <img src="imagens/pizzaria.png">
-        </div>
-        <div id="forno" class="col col-9 txt-right">
-            <div class="icons_header">
-                <ul>
-                    <i class="fab fa-facebook"></i> 
-                    <i class="fab fa-instagram"></i>    
-                    <i class="fab fa-twitter"></i>  
-                </ul>
+    <header class="header"> <!--Barra Inicial e Menu-->
+        <div id="barra_inicial" class ="row">
+            <div class="col col-3">
+                <img src="imagens/pizzaria.png">
             </div>
-            <a href="#"><span class="burguer"><i class="fas fa-bars"></i></span></a>    
-            <a href="#" class="forno"><span class="material-symbols-outlined">
-                oven_gen</span></a>
+            <div id="forno" class="col col-9 txt-right">
+                <div class="icons_header">
+                    <ul>
+                        <i class="fab fa-facebook"></i> 
+                        <i class="fab fa-instagram"></i>    
+                        <i class="fab fa-twitter"></i>  
+                    </ul>
+                </div>
+                <a href="#"><span class="burguer"><i class="fas fa-bars"></i></span></a>    
+                <a href="#" class="forno"><span class="material-symbols-outlined">
+                    oven_gen</span>
+                </a>
             </div>
         </div>
-        <div id="menu" class="row">
-            <ul class="menu-list">
-                <li id="categoria"><i class="fas fa-utensils"></i><a href="index.html">Home</a></li>
-                <li id="categoria"><i class="fas fa-pizza-slice"></i><a href="produtos.html">Produtos</a></li>
-                <li id="categoria"><i class="fas fa-layer-group"></i><a href="especiais.html">Especiais</a></li>
-                <li id="categoria"><i class="fas fa-map-marked-alt"></i><a href="localizacao.html">Localização</a></li>
-                <li id="categoria"><i class="fas fa-user"></i><a href="login.html">Login</a></li>
-            </ul>
+            <div id="menu" class="row">
+                <ul class="menu-list">
+                    <li id="categoria"><i class="fas fa-utensils"></i><a href="index.html">Home</a></li>
+                    <li id="categoria"><i class="fas fa-pizza-slice"></i><a href="produtos.html">Produtos</a></li>
+                    <li id="categoria"><i class="fas fa-layer-group"></i><a href="especiais.html">Especiais</a></li>
+                    <li id="categoria"><i class="fas fa-map-marked-alt"></i><a href="localizacao.html">Localização</a></li>
+                    <li id="categoria"><i class="fas fa-user"></i><a href="login.html">Login</a></li>
+             </ul>
         </div>
     </header>
     <section> <!--Section Promoção-->
@@ -53,7 +53,7 @@
     <section id="pizzas"> <!--Section Pizzas mais vendidas-->
 		<h3>Pizzas Mais Vendidas</h3>
 		<div class="row">
-			<div class="col col-3">
+			<div class="col col-3 exemplo">
 				<h4>Pizza Atum</h4>
                 <h5>14,95€</h5>
 				<img src="imagens/atum.png">
@@ -62,7 +62,7 @@
                 <a href="#" class="botao-compra">Pó Forno<span class="material-symbols-outlined">
                     oven_gen</span></a>
 			</div>
-			<div class="col col-3">
+			<div class="col col-3 exemplo">
 				<h4>Pizza Barbecue</h4>
                 <h5>14,95€</h5>
 				<img src="imagens/bbq.png">
@@ -71,7 +71,7 @@
                 <a href="#" class="botao-compra">Pó Forno<span class="material-symbols-outlined">
                     oven_gen</span></a>
 			</div>
-			<div class="col col-3 produtos">
+			<div class="col col-3 produtos exemplo">
 				<h4>Pizza Ovo a Cavalo</h4>
                 <h5>14,95€</h5>
 				<img src="imagens/ovo a cavalo.png">
@@ -80,7 +80,7 @@
                 <a href="#" class="botao-compra">Pó Forno<span class="material-symbols-outlined">
                     oven_gen</span></a>
 			</div>
-            <div class="col col-3 produtos">
+            <div class="col col-3 produtos exemplo">
 				<h4>Pizza Inglesa</h4>
                 <h5>14,95€</h5>
 				<img src="imagens/inglesa.png">
@@ -91,7 +91,7 @@
 			</div>
 		</div>
         <div class="row">
-			<div class="col col-3 produtos">
+			<div class="col col-3 produtos exemplo">
 				<h4>Pizza Carbonara</h4>
                 <h5>14,95€</h5>
 				<img src="imagens/carbonara.png">
@@ -100,7 +100,7 @@
                 <a href="#" class="botao-compra">Pó Forno<span class="material-symbols-outlined">
                     oven_gen</span></a>
 			</div>
-			<div class="col col-3 produtos">
+			<div class="col col-3 produtos exemplo">
 				<h4>Pizza Rustica</h4>
                 <h5>14,95€</h5>
 				<img src="imagens/rustica.png">
@@ -108,7 +108,7 @@
 				</p>
                 <a href="#" class="botao-compra">Pó Forno<span class="material-symbols-outlined">oven_gen</span></a>
 			</div>
-			<div class="col col-3 produtos">
+			<div class="col col-3 produtos exemplo">
 				<h4>Pizza Fiambre e queijo</h4>
                 <h5>14,95€</h5>
 				<img src="imagens/fiambre e queijo.png">
@@ -117,7 +117,7 @@
                 <a href="#" class="botao-compra">Pó Forno<span class="material-symbols-outlined">
                     oven_gen</span></a>
 			</div>
-            <div class="col col-3 produtos">
+            <div class="col col-3 produtos exemplo">
 				<h4>Pizza Havaiana</h4>
                 <h5>14,95€</h5>
 				<img src="imagens/havaiana.png">
@@ -128,88 +128,7 @@
 			</div>
 		</div>
 	</section>
-    <section id="pizzas" class="tablet">
-		<div class="row">
-			<div class="col col-6">
-				<h4>Pizza Atum</h4>
-                <h5>14,95€</h5>
-				<img src="imagens/atum.png">
-				<p><b>Ingredientes:</b> Molho de tomate, Queijo Mozzarella, Atum e Manjericão.
-                </p>
-                <a href="#" class="botao-compra">Pó Forno<span class="material-symbols-outlined">
-                    oven_gen</span></a>
-			</div>
-			<div class="col col-6">
-				<h4>Pizza Barbecue</h4>
-                <h5>14,95€</h5>
-				<img src="imagens/bbq.png">
-				<p><b>Ingredientes:</b> Molho de tomate, Queijo Mozzarella, Carne picada, Cebola e Molho Barbecue.
-                </p>
-                <a href="#" class="botao-compra">Pó Forno<span class="material-symbols-outlined">
-                    oven_gen</span></a>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col col-6">
-				<h4>Pizza Atum</h4>
-                <h5>14,95€</h5>
-				<img src="imagens/ovo a cavalo.png">
-				<p><b>Ingredientes:</b> Molho de tomate, Queijo Mozzarella, Atum e Manjericão.
-                </p>
-                <a href="#" class="botao-compra">Pó Forno<span class="material-symbols-outlined">
-                    oven_gen</span></a>
-			</div>
-			<div class="col col-6">
-				<h4>Pizza Barbecue</h4>
-                <h5>14,95€</h5>
-				<img src="imagens/inglesa.png">
-				<p><b>Ingredientes:</b> Molho de tomate, Queijo Mozzarella, Carne picada, Cebola e Molho Barbecue.
-                </p>
-                <a href="#" class="botao-compra">Pó Forno<span class="material-symbols-outlined">
-                    oven_gen</span></a>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col col-6">
-				<h4>Pizza Atum</h4>
-                <h5>14,95€</h5>
-				<img src="imagens/carbonara.png">
-				<p><b>Ingredientes:</b> Molho de tomate, Queijo Mozzarella, Atum e Manjericão.
-                </p>
-                <a href="#" class="botao-compra">Pó Forno<span class="material-symbols-outlined">
-                    oven_gen</span></a>
-			</div>
-			<div class="col col-6">
-				<h4>Pizza Barbecue</h4>
-                <h5>14,95€</h5>
-				<img src="imagens/rustica.png">
-				<p><b>Ingredientes:</b> Molho de tomate, Queijo Mozzarella, Carne picada, Cebola e Molho Barbecue.
-                </p>
-                <a href="#" class="botao-compra">Pó Forno<span class="material-symbols-outlined">
-                    oven_gen</span></a>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col col-6">
-				<h4>Pizza Atum</h4>
-                <h5>14,95€</h5>
-				<img src="imagens/fiambre e queijo.png">
-				<p><b>Ingredientes:</b> Molho de tomate, Queijo Mozzarella, Atum e Manjericão.
-                </p>
-                <a href="#" class="botao-compra">Pó Forno<span class="material-symbols-outlined">
-                    oven_gen</span></a>
-			</div>
-			<div class="col col-6">
-				<h4>Pizza Barbecue</h4>
-                <h5>14,95€</h5>
-				<img src="imagens/havaiana.png">
-				<p><b>Ingredientes:</b> Molho de tomate, Queijo Mozzarella, Carne picada, Cebola e Molho Barbecue.
-                </p>
-                <a href="#" class="botao-compra">Pó Forno<span class="material-symbols-outlined">
-                    oven_gen</span></a>
-			</div>
-        </div>
-    </section> 
+    
     <section id="form"> <!--Section Frase, convite e form-->
         <h1 class="barra">a</h1> <!--Barra de separação de sections-->
         <div class="novaloja">
@@ -290,5 +209,12 @@
             <p>Concebido dia 28/02/2024 por <b>Pedro Marques</b> e <b>Bernardo Pombinho</b></p>
         </div>
     </section>
+    <script>
+        $(document).ready(function(){
+            $("#barras").click(function(){
+                $("#elemento").toggle();
+            });
+        });
+    </script>
 </body>
 </html>

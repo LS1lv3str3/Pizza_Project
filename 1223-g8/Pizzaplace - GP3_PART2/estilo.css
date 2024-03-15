@@ -57,7 +57,7 @@ header{
 
 header a{
     color: #CE441E;
-    font-size: 25px;
+    font-size: 1.6rem;
 }
 
 
@@ -260,8 +260,8 @@ header ul{ /*Estrutura Menu*/
 #pizzas .row img{ /*Imagens Pizzas*/
     border-radius: 30px;
     margin-left: 25.5%;
-    width: 200px;
-    height: 200px;
+    width: 50%;
+    height: auto;
 }
 
 
@@ -614,7 +614,7 @@ header ul{ /*Estrutura Menu*/
 }
 
 .localizacao h1{ /*Titulo*/
-    font-size: 50px;
+    font-size: 2rem;
 }
 
 .localizacao p{ /*paragrafo*/
@@ -786,6 +786,11 @@ header ul{ /*Estrutura Menu*/
     margin: 0 auto;
 }
 
+#elemento{
+    display: none;
+}
+
+
 
 /* Telemovel*/
 @media only screen and (max-width: 599px) {
@@ -935,6 +940,61 @@ header ul{ /*Estrutura Menu*/
         text-align: center;
     }
 
+    .localizacao{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .localizacao iframe{
+        width: 100%;
+        margin: 0;
+        padding: 0 !important;
+    }
+
+    .localizacao h1{
+        font-size: 1.5rem;
+    }
+
+    .localizacao p{
+        font-size: 1rem;
+    }
+    
+    #elemento ul{
+        width: 90%;
+        margin: 0% auto;
+    }
+
+    #elemento ul{
+        align-items: center !important;
+        list-style-type: none;
+        display: inline;
+        padding: 0%;
+        text-align: right;
+    }
+    
+    #elemento li {
+        color: #CE441E;
+        font-size: 1.6rem;
+        font-weight: bolder;
+        padding-bottom: 2% !important;
+    }
+    
+    #elemento a{
+        text-decoration: none;
+        margin-right: 5% !important;
+    }
+
+    #teste{
+        width: 100%;
+        box-shadow: 0px 2px 4px #ce441e7e;
+        background-color: #f1e9de;
+    }
+
+    .header ul{
+        box-shadow: none;
+    }
+
+   
 }
 /*Tablet*/
 @media only screen and (min-width: 600px) and (max-width:991px){
@@ -968,12 +1028,25 @@ header ul{ /*Estrutura Menu*/
     
     /*Alteração aos produtos*/
 
-    #pizzas .col-3{
-        display: none;
+    #pizzas .row img{ /*Imagens Pizzas*/
+        border-radius: 30px;
+        width: 50%;
+        height: auto;
     }
-    
-    .tablet{
-        display: block;
+
+    #pizzas p{
+        width: 100%;
+        height: 4rem;
+    }
+    .exemplo{
+        width:48.7% !important;
+        display: inline-block !important;
+        margin: 0 auto 2% auto !important;
+    }
+
+    #pizzas .row{
+        display: block !important;
+        width: 100% !important;
     }
     
     /*Pagina de registo*/
@@ -998,7 +1071,7 @@ header ul{ /*Estrutura Menu*/
     }
 
     .titulo h3{
-        margin: 0%;
+        margin: 0 0 5% 0;
     }
 
     /*Pagina de LOGIN*/
@@ -1075,4 +1148,67 @@ header ul{ /*Estrutura Menu*/
     .especiais .col-4{
         width: 33%;
     }
+
+    .localizacao{
+        margin: 0;
+    }
+
+    .par{
+        width: 49% !important;
+        display: inline-block !important;
+    }
+
+    .impar{
+        width: 49% !important;
+        display: inline-block !important;
+    }
+
+    .localizacao iframe{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .localizacao h1{
+        font-size: 1.5rem;
+    }
+
+    .localizacao p{
+        font-size: 1rem;
+    }
+
+    #elemento ul{
+        width: 90%;
+        margin: 1% auto;
+    }
+
+    #elemento ul{
+        align-items: center !important;
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+        padding: 0%;
+    }
+    
+    #elemento li {
+        color: #CE441E;
+        font-size: 1.6rem;
+        font-weight: bolder;
+    }
+    
+    #elemento a{
+        text-decoration: none;
+    }
+
+    #teste{
+        width: 100%;
+        box-shadow: 0px 2px 4px #ce441e7e;
+        background-color: #f1e9de;
+    }
+
+    .header ul{
+        box-shadow: none;
+    }
+
+   
 }
