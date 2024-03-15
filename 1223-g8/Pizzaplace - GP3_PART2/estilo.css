@@ -334,7 +334,7 @@ header ul{ /*Estrutura Menu*/
 }
 
 #convite i{ /*Icone*/
-    font-size: 150px;
+    font-size: 10rem;
     color: #fff;
     margin-top: 5%;
     padding: 0;   
@@ -348,9 +348,9 @@ header ul{ /*Estrutura Menu*/
 }
 
 #formulario h1{ /*"Newsletter*/
-    margin-bottom: 20%;
+    margin-bottom: 5%;
     text-transform: uppercase;
-    font-size: 60px;
+    font-size: 3.5rem;
     color: #fff;
 }
 
@@ -362,6 +362,7 @@ header ul{ /*Estrutura Menu*/
 #formulario h3{ /*"Newsletter*/
     color: #fff;
     font-size: 2.5rem;
+    margin: 0;
 }
 
 .inputbox{
@@ -846,6 +847,8 @@ header ul{ /*Estrutura Menu*/
     .tablet{
         display: none;
     }
+    
+    .produtos h3 {padding-top: 0;}
 
     /*Pagina de registo*/
     .register{
@@ -1141,6 +1144,7 @@ header ul{ /*Estrutura Menu*/
         display: block !important;
         width: 100% !important;
     }
+    .produtos h3 {padding-top: 0;}
     
     /*Pagina de registo*/
     .register{
