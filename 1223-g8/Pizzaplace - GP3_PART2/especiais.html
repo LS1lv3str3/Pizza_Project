@@ -29,14 +29,25 @@
                 </a>
             </div>
         </div>
-            <div id="menu" class="row">
+        <div id="menu" class="row">
+            <ul class="menu-list">
+                <li id="categoria"><i class="fas fa-utensils"></i><a href="index.html">Home</a></li>
+                <li id="categoria"><i class="fas fa-pizza-slice"></i><a href="produtos.html">Produtos</a></li>
+                <li id="categoria"><i class="fas fa-layer-group"></i><a href="especiais.html">Especiais</a></li>
+                <li id="categoria"><i class="fas fa-map-marked-alt"></i><a href="localizacao.html">Localização</a></li>
+                <li id="categoria"><i class="fas fa-user"></i><a href="login.html">Login</a></li>
+            </ul>
+        </div>
+        <div id="elemento" class="row">
+            <div id="teste">
                 <ul class="menu-list">
                     <li id="categoria"><i class="fas fa-utensils"></i><a href="index.html">Home</a></li>
                     <li id="categoria"><i class="fas fa-pizza-slice"></i><a href="produtos.html">Produtos</a></li>
                     <li id="categoria"><i class="fas fa-layer-group"></i><a href="especiais.html">Especiais</a></li>
                     <li id="categoria"><i class="fas fa-map-marked-alt"></i><a href="localizacao.html">Localização</a></li>
                     <li id="categoria"><i class="fas fa-user"></i><a href="login.html">Login</a></li>
-             </ul>
+                </ul>
+            </div>
         </div>
     </header>
 <main>
@@ -83,7 +94,7 @@
     </section>
     <script>
         $(document).ready(function(){
-            $("#barras").click(function(){
+            $("#barra_inicial").click(function(){
                 $("#elemento").toggle();
             });
         });

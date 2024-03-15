@@ -310,7 +310,7 @@ header ul{ /*Estrutura Menu*/
 
 #frase h1{ /*slogan*/
     color:#CE441E;
-    font-size: 70px;
+    font-size: 3rem;
 }
 
 
@@ -545,12 +545,12 @@ header ul{ /*Estrutura Menu*/
 }
 
 .especiais h1{ /*Titulo*/
-    font-size: 50px;
+    font-size: 4rem;
     text-align: right;
 }
 
 .especiais p{ /*paragrafo*/
-    font-size: 30px;
+    font-size: 1.3rem;
     text-align: right;
 }
 
@@ -790,7 +790,9 @@ header ul{ /*Estrutura Menu*/
     display: none;
 }
 
-
+.restaurantes{
+    display: none;
+}
 
 /* Telemovel*/
 @media only screen and (max-width: 599px) {
@@ -894,10 +896,65 @@ header ul{ /*Estrutura Menu*/
         text-align: center;
         margin: 0;
 
-        .col-4{
-            width: 100%;
-            margin: 1%;
-        }
+    }
+
+    #convite {
+        font-size: 2rem;
+
+    }
+
+    #convite h1 {
+        margin-bottom: 3%;
+        
+    }
+
+    #convite i{
+        display: none;
+    }
+
+    #formulario{
+        font-size: 2rem;
+        width: 100%
+    }
+
+    #formulario h2{
+        color: #fff;
+    }
+
+    #formulario input{
+        font-size: 1.5rem
+    }
+
+    #formulario a{
+        width: 80%;
+    }
+    #restaurantes{
+        display: none;
+    }
+    .restaurantes{
+        display: block;
+    }
+
+    #mensagem h1{
+        font-size: 3rem;
+        margin:3% 0 3% 0;   
+    }
+
+    .row #locais{
+        margin: 0% auto;
+        display: flex;
+    }
+
+    #locais{
+        padding: 0% 5% 0 5%;
+    }
+
+    
+
+    
+    .col-4{
+        width: 100%;
+        margin: 1%;
     }
 
     #promo{ /*Estrutura Promoção*/
@@ -933,11 +990,44 @@ header ul{ /*Estrutura Menu*/
         
     }
     /*Alteração nas especiais*/
-    .especiais{ margin: 0;}
-    .especiais .row{ margin: 4% 1%; padding: 5% 0;}
-    .especiais .col{
-        display: table-row;
-        text-align: center;
+    .especiais{
+        width: 100%;
+        margin: 0;
+    }
+
+    .especiais .row{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 2%;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .especiais img{
+        display: flex;
+        width: 50%;
+        margin: 0 auto;
+
+    }
+
+    .especiais .col-4{
+        width: 100%;
+        margin: 3% auto 0 auto;
+    }
+
+    .especiais .col-8{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 3%;
+    }
+
+
+    .especiais a{
+        margin: 0 auto;
     }
 
     .localizacao{
@@ -993,6 +1083,9 @@ header ul{ /*Estrutura Menu*/
     .header ul{
         box-shadow: none;
     }
+
+
+
 
    
 }
@@ -1061,7 +1154,7 @@ header ul{ /*Estrutura Menu*/
 
     .botao-register{
         display: flex;
-        margin: 0 auto;
+        margin: 3% auto 0 auto;
         justify-content: center;
         width: 50%;
     }
